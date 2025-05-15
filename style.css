@@ -1,0 +1,46 @@
+body {
+  direction: rtl;
+  font-family: sans-serif;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+#line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-color: red;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#timer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
